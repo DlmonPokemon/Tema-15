@@ -1,0 +1,39 @@
+body{
+    background-image: url(./background1.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 18px;
+}
+img{
+    width: 220px;
+    height: 270px;
+}
+.b{
+    width: 765px;
+}
+fieldset{
+    height: 350px;
+    background-color: gray;
+    display: inline-block;
+}
+img:hover{
+    border:3px solid red;
+}
+select{
+    background-color: green;
+    width: 160px;
+    height: 30px;
+    border: 2px solid white;
+    font-family:cursive ;
+    font-size: 16px;
+}
+.c{
+    width: auto;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.d:hover{
+    background-color: purple;
+    color: yellow;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Виберіть зовнішність персонажа гри</h1>
+    <div align="center">
+<fieldset class="b">
+<legend align="center">Нікнейм вашого персонажа</legend>
+<input type="text" placeholder="Нікнейм персонажа">
+<input type="password" placeholder="Пароль персонажа"><br><br>
+<img src="./player.png" title="Асасін">
+<img src="./player2.png" title="Кратос">
+<img src="./player3.png" title=" галдіатор">
+
+</fieldset>
+    </div>
+    <div align="center">
+<fieldset class="a">
+    <legend align="center">Основні характеристики та персонажа</legend>
+    Стать Персонажа:<br>
+    <input type="radio" name="radio">чоловік
+    <input type="radio" name="radio">Жінка<br>
+    Раса:<br>
+    <select><option>Некромант</option><option>Ельф</option><option>Паладін</option></select><br>
+    Клас:<br>
+    <select><option>Воїн</option><option>Лучник</option><option>Маг</option></select><br>
+    Виберіть додаткові можливості:<BR>
+        <input type="checkbox">Телепорт
+        <input type="checkbox">Можливість літати
+        <input type="checkbox">Швидкий біг
+        <input type="checkbox">Високі прижки<br>
+        <legend class="c">Додаткові навики персонажа</legend>
+ATC<select>
+           <option>Кріт урон 5%</option>
+           <option>більше домагу в ближньому бою 15%</option>
+           <option>більше домагу в дальньому бою 15%</option>
+    </select><br>
+Def<select>
+    <option>більше броні 5%</option>
+    <option>більше броні в ближньому бою 15%</option>
+    <option>більше броні в дальньому бою 15%</option></select><br>
+<input type="reset" value="Зберихти вибір" class="d">
+<input type="submit" value="Повернутись" class="d">
+</fieldset>
+    </div>
+</body>
+</html>

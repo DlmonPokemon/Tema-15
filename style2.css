@@ -1,0 +1,13 @@
+fieldset{
+    width: 350px;
+    text-align: center;
+}
+button{
+    margin-top: 15px;
+    background-color: gray;
+    border: 2px solid black;
+}
+button:hover{
+    background-color: silver;
+    color: blue;
+}
